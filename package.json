@@ -21,7 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
-    "lint": "eslint \"**/*.{ts,tsx}\" --fix"
+    "lint": "eslint \"**/*.{ts,tsx}\" --fix",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "**/*.{ts,tsx}": [
